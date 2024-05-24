@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(pink, purple);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    margin: 20px 350px;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: dodgerblue;
+}
+
+input{
+    margin-bottom:5px;
+    border: none;
+}
+
+.in{
+    width:40px;
+    border: 2px sold gray;
+}
+

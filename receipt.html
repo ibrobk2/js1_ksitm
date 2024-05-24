@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS Receipt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .receipt {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .receipt-header, .receipt-footer {
+            background: #007bff;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+        }
+        .receipt-footer {
+            border-radius: 0 0 10px 10px;
+        }
+        .receipt-body {
+            padding: 20px;
+        }
+        .table {
+            margin-bottom: 0;
+        }
+        .table th, .table td {
+            border-top: none;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .total-row {
+            background: #e9ecef;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="receipt">
+    <div class="receipt-header text-center">
+        <h4>Store Name</h4>
+        <p>1234 Main St, City, State ZIP</p>
+        <p>(123) 456-7890</p>
+    </div>
+    <div class="receipt-body">
+        <div class="row mb-4">
+            <div class="col">
+                <h5>Customer Information</h5
+
+<p>Name: John Doe</p>
+<p>Email: johndoe@example.com</p>
+</div>
+<div class="col text-right">
+<h5>Receipt</h5>
+<p>Date: 2024-05-21</p>
+<p>Receipt #: 123456</p>
+</div>
+</div>
+<table class="table">
+<thead>
+<tr>
+    <th>Item</th>
+    <th>Qty</th>
+    <th class="text-right">Price</th>
+    <th class="text-right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Item 1</td>
+    <td>2</td>
+    <td class="text-right">$10.00</td>
+    <td class="text-right">$20.00</td>
+</tr>
+<tr>
+    <td>Item 2</td>
+    <td>1</td>
+    <td class="text-right">$15.00</td>
+    <td class="text-right">$15.00</td>
+</tr>
+<tr class="total-row">
+    <td colspan="3" class="text-right">Subtotal</td>
+    <td class="text-right">$35.00</td>
+</tr>
+<tr class="total-row">
+    <td colspan="3" class="text-right">Tax (5%)</td>
+    <td class="text-right">$1.75</td>
+</tr>
+<tr class="total-row">
+    <td colspan="3" class="text-right">Total</td>
+    <td class="text-right">$36.75</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="receipt-footer text-center">
+<p>Payment Method: Credit Card</p>
+<p>Thank you for your purchase!</p>
+<p>Visit us again at <a href="#" class="text-white">www.storewebsite.com</a></p>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
